@@ -1,0 +1,523 @@
+Subject Code :          17MCA1C1                                    
+JAMAL MOHAMED COLLEGE (Autonomous)
+TIRUCHIRAPPALLI – 620 020
+
+Objective Type Questions
+
+Department of  COMPUTER SCIENCE
+Semester : FIRST                                     UG / PG  : MCA
+Title of the Paper :  CORE-I :  PROGRAMMING IN C
+
+Unit - I
+1.	For 16-bit compiler allowable range for integer constant is ------------.
+	a. -3.4e38 to 3.4e38  		b. -32767 to 32768 
+	c. -32668 to 32667 		d. -32768 to 32767
+2.	C language was primarily developed for ---------- programming.
+	a. system	b. general-purpose	c. database	d. special-purpose
+3.	Standard ANSI C language recognizes ---------- number of keywords .
+	a. 64 		b. 52		c. 32		d. 28
+4.	Which of the following is not a reserved word in C language ?
+	a. register	b. auto		c. case		d. main
+5.	A variable names in C language cannot start with ----------.
+	a. a number 	b. an underscore 	c. an uppercase letter	    d. a lowercase letter
+6.	If an integer needs two bytes of storage, then maximum value of an unsigned integer is----.
+	a. 216	 	b. 216 -1	c. 215 - 1	d. 215
+7.	What is the return value to the OS upon the successful completion a C program ?
+	a. 1		b. -1		c. 0		d. doesn’t return any value
+8.	Which of the following operator has the lowest precedence ?
+	a. ++		b. --		c. +=		d. ?:
+9.	What is the output of the following code of C are executed ?
+		char ch=’G’;
+		int i;
+		i = ch – ’A’;
+		printf(“%d”,i);
+	a.   5		b.   6		c.  7		d.  8
+10.	What is the output of the following code of C are executed ?
+		char ch=’B’;
+		float i;
+		i = (float)ch * 2;
+		printf(“%d”,i);
+	a. Compilation error		b. 132.000000		c. 131.000000         d. 2
+11.	What is the output of the following code of C are executed ?
+		void main()
+		{   int i=065, j=65’;
+		      printf(“%d  %d”,i,j);
+ 		}
+	a. 53 65		b. 065 65	c. 053 65         d. 65 65
+12.	Which of the following operator has the highest precedence ?
+	a. ++		b. %		c. +=		d. *
+13.	Which of the following is a correct way of defining a symbolic constant pie in C
+	a.# define pie  22/7	b. #define pie 3.142;   c. #define pie 3.142  d. # Define pie=22/7
+14.	Which of the following is not correct ?
+	a. C language is highly portable   	b. C language is a free-form language
+	c. C is a middle level language	d. Standard ANSI C has 32 keywords 
+
+15.	What is the output of the following code of C are executed ?
+		void main()
+		{   int k;
+		      k=3/2*4+3/8;
+		      printf(“%d”,k);
+ 		}
+	a. 0		b. 6		c. 1         d. 4
+
+16.	What is the output of the following program statements ?
+	   void main()
+	 {   static int y; printf (“%d\n”, y);	 }
+	a. Compilation error	 b. Runtime error 	c. 0	 d. 1
+
+17.	The precedence of operators determine which operator is :
+	a. Faster   		b. takes no arguments   
+	c. evaluated first 	d. takes less memory
+
+18.	What is the result of the expression ( 10/3 )*3+5%3 ?
+	a.  1	     	b. 8		c. 10   		d. 11
+
+19.	If storage class is missing in the array definition, by default it will be taken to be
+	a.  automatic		b. external	c. static
+	d. either automatic or external depending on the place of occurrence
+
+20.	The storage area for register variables is
+	a. Cache	b. Processor registers	  c. Memory	d. Virtual memory
+
+Unit - II
+21. 	Which of the following is not correct ?
+	a. while loop is executed at least once   b. do . while loop is executed at least once
+	c. while loop is upper tested  		   d. do ..while loop  is lower tested
+
+22.	Which of the following is ‘entry controlled’ looping statement ?
+	a. while loop	b. do..while loop	c. for loop     d. switch case
+23.	Which of the following is ‘exit controlled’ looping statement ?
+	a. for loop	b. do..while loop	c. switch case	d. while loop
+24.	Which of the following is not an unconditional control statement ?
+	a. case		b. break	c. goto		d. continue
+25.	The expression in the switch statement is ----------.
+	a. integeral	b. logical	c. char type		d. Both (a) and (c)
+26.	The continue statement cannot be used with 
+	a. for loop	b. do loop	c. while loop	d. switch
+
+27.	The last character of any string in C language is 
+	a. an alphabet 		b. a number		c. double quote  	d. \0
+28.	The following code ‘for(;;)’ represents an infinite loop. It can be terminated by.
+	a. break    	b. exit(0)  	 c. abort()    	d. All of these
+29.	Comment on the following statement:    int (*a)[7];
+	a. An array “a” of pointers.     b. A pointer “a” to an array.
+	c. Invalid statement                d. Array of pointers
+
+30.	Which of the following can never be sent by call-by-value?
+	a. Variable   b. Array   c. Structures   d. Union
+
+31. 	Which of the following cannot be a structure member?
+	a. Another structure   b. Function    c. Array   d. Pointers
+
+32.  	Can function definition be present in header files?
+	a. Yes   b. No   c. Depends on the compiler   d. Depends on the standard
+33.	The last character of a string is always a/an
+	a.   alphabet     b.  double quote    c.   single quote  d.  \0
+
+34.	In C, if an array is passed as argument to a function, what actually gets passed ?
+	a. value of elements 	 		b. Base address of the array	
+	c. Index value of first element	 	d. name of the array
+35.	Pickout the correct value of count.
+	int count=0,i; 
+            for(i=0;i<=10;i++) 
+                 if(i%2==0) count++;
+            printf(“%d”,count); 
+  
+         	a. 6		 b. 5		 c. 4		 d. Compilation error
+
+36.	What are the correct syntaxes to send an array as a parameter to function?
+	a. func(array[size]);    b.   func(*array);    c. func(array[]);   d. func(array);
+37.	In C, call-by-reference is achieved by using ---------------- operator.
+	a. & (ampersand)	b)  * (indirection)	 c) -> (arrow)	 d) ->*
+38.	Recursive functions are executed in which order
+	a. Parallel order   b. Iterative order   c. Last in first out   d.	Random order	
+39.	In recursive call of the function where the automatic variables are stored?
+	a.   Stack    	b.	Queue         	c. Array          d. Register 
+40.	Usually the loop’s working is faster than recursion
+	a. Always true   b. Always false   c.	Sometimes true    d. Sometimes false
+
+UNIT - III
+41.	How many bytes will be allotted for the declaration int num[4] [3] ?
+	a. 6 bytes   b. 24 bytes     c.  12 bytes     d. 48 bytes
+42.	Array subscripts in ‘C’ always start at
+	a. 0	 b. 1    c. -1    d. compiler dependent
+43.	 The maximum number of dimension an array can have in C language is
+	 a.   4		b.  5	c.  Compiler dependent     d.  7
+44.	Dynamic memory allocation in an array results in
+	a.  Allocation of memory at debugging time   b. Allocation of memory at file saving time
+	c.  Allocation of memory at compile time  	d. Allocation of memory at runtime 
+
+45.	What is the output of the following module
+	int  sum=0; i=0; 
+	do{ 
+	sum+=i; i++; 
+	}while(i<=5); 
+	printf(“%d”, sum);
+
+	a.  28		b. 10		c. 15		d. 21
+ 46.	The total memory required for an array is
+	a. sizeof (datatype) * 2		b. sizeof (datatype) * size of used array elements
+	c. sizeof (datatype) * size of array   	d. sizeof (array) * datatype.
+	
+47.	How to declare a pointer to a function?
+	a.  int *(fp)()        b. int (*fp)()         c. int * (fp)()        d. int *()fp
+48.	What is p in the declaration   int (*p)[3][4];   ?
+	a.  P is a pointer to a 2-D array of 3 rows and 4 columns. 
+	b.  P is a function pointer to a 2-D array of 3 rows and 4 columns.
+	c.  P is a pointer to array of 4 elements.
+	d.  P is a function pointer to array of 4 elements	
+
+49.	If the two strings are identical, then strcmp() function returns? 
+	a.  0      	b.  1     	 c.  -1  		 d.  Null 
+50.	Which is more appropriate for reading in a multi-word string ?	  	
+	a. gets()     b. printf()	  c. scanf() 	d. puts()
+51.	Which of the following  is the right way to initialize an integer array ?
+	a. int num[4] = {1,2,3,4};	b. int num() = {1,2,3,4};
+	c. int num[4] =(1,2,3,4)  	d. int num[4] = [1,2,3,4];
+
+52.	What will be printed after execution of the following code ?
+	int array[10]= {1,2,3,4,5};
+	printf(“%d”,array[5]); 
+
+	a.  Garbage value  	b. 5 	 c) 6		  d) 0
+53.	What will be printed after execution of the following code ?
+	char str1[]= “1234”;
+	char str2[]=”1234”;
+	if (st1==str2) 
+	printf(“Equal”);
+	else
+	printf(“Unequal”);
+
+	a.  Equal  	b. Unequal 	 c. Compilation Error	  d. Exception
+54.	What will be the output of following code ?
+	        float array[]= {1.4, 2.9, 3.8, 4.5};
+	        printf(“%d”, sizeof(array)/sizeof(array[0]);
+
+	a.  2  		b. 3 	 c. 4		  d. Compilation Error
+55.	The library function used to find the last occurrence of a character in a string is :
+	a. laststr()      b.  strstr()     c. strnstr()       d. strrchr()
+56.	What will be the output of following code ?
+	char *msg = “Hello”;
+	printf(“%s”,msg);
+	a. H	 	b. Hello  	c. Garbage value    d. Compilation Error  
+57.	Which of the following statements is true after execution of the code ?
+	int  a[5], *p;
+	a[0]=1;
+	a[1]=2;
+	p=a;
+	(*p)++;
+	a. a[1] = 2	 	b. a[0]=3  	c. a[1]=0    d. a[0]=2  
+58. 	What is the base data type of a pointer variable by which the memory would be allocated 
+	to it ?
+	a. int	b. float	    c. depends upon the type of the variable it points to      d. unsigned int
+59.	What does pointer ptr point to in the following code ?
+	char *ptr;
+	char msg[]=”Hello Boys”;
+	ptr=msg;
+            ptr+=2;
+	a. llo Boys	 	b. lo Boys  	c. Garbage value    d. Hello Boys  
+60.	Which command is used to skip the rest of a loop and carry -------------
+	a. break        b. continue          c. resume        d. skip
+UNIT - IV
+61.	#include <stdio.h> is called
+	a. Preprocessor directive   		b. Inclusion directive    
+	c. File inclusion directive   		d. None of these
+	
+62.	A preprocessor is a program
+	a. that processes its input data to produce output that is used as input to another program
+            b. that is nothing but a loader   
+	c. that links various source files     
+            d. that  pre-compiles the source code
+63.	The preprocessor provides the ability for _______________.
+	a. The inclusion of header files    b. loading source files     
+	c. Conditional compilation and line control 	 d. Both (a) and (c)
+
+64.	What will be the output of following code ?
+	#define prod(x,y)  x*y
+	void main(){
+ 	int a= 3,b=4;
+	printf(“%d”,prod(a+2,b-1));
+
+	a. 10	 	b. 12  		c. 15   		 d. 20  
+65.	Which of the following cannot be a structure member?
+
+	a. Another structure   b. Function    c. Array   d. Pointers
+
+66.	Can function definition be present in header files?
+	a. Yes   b. No   c. Depends on the compiler   
+	d. Depends on the standard
+
+67.	Which of the following operator present at the end of each line to split macros ?
+	a. &	 b.  \ 	 	c. ;	 	d. ,
+68.	What will be the output of following code ?
+	#define max  5
+	void main(){
+ 	int i=0;
+	i=max++;
+	printf(“%d”,i++);
+
+	a. 5	 	b. 6  		c. 7   		 d. Compilation error 
+69. 	What will be the output of following code ?
+	#define inc(x)  x++
+	void main(){
+ 	int i=2;
+	printf(“%d”,inc(i++));
+
+	a. 2	 	b. 3  		c. 4   		 d. Compilation error 
+70.	A pre-processor command
+	a. need not start on new line	b. need not start on the first column
+	c. has # as the first character	 d. comes before the first executable statement
+71.	What will be the output of the following  program ?
+	#include<stdio.h>
+	#define int char
+	void main()	{
+	int i = 65;
+	printf(“sizeof(i) = %d”,sizeof(i)); }
+
+	a. sizeof(i) = 2	    b. sizeof(i) = 1   c. sizeof(i) = 4	d. Compilation Error
+72.	What will be the output of the following program ?
+	#include<stdio.h>
+	#define square(x) x*x
+	void main()	{
+	int i; 
+	i=64/square(4);
+	printf(“ %d”,i); }
+	a.  2	    	b. 4   		c. 16		d. 64
+73.	What will be the output of the following program ?
+	#include<stdio.h>
+	#define  x 30
+	void main()	{
+	#define x 50 
+	printf(“ %d”, x); }
+	a.  30	    	b. 50   		c. Compilation error		d. 80
+74.	Size of a union is determined by size of the.
+	a.  First member in the union 		b.  Last member in the union 
+	c.  Biggest member in the union 	d.  Sum of the sizes of all members
+
+75.	Which of the following can never be sent by call-by-value?
+	a. Variable   b. Array   c. Structures   d. Both (b) and (c)
+
+76.	Which of the datatypes have size that is variable?
+	a) int  	 	b) struct   	c) float   	d) double
+77.	Point out the error in the program?
+struct emp
+{
+    int ecode;
+    struct emp *e;
+};
+	a.  Error: in structure declaration 		b. Linker Error 
+	c.  Pointer to struct cannot be a member	d.  No Error
+
+78.	What is the similarity between a structure, union and enumeration?
+	a.  All of them let you define new values 	b.  All of them let you define new data types 
+	c.  All of them let you define new pointers 	d. All of them let you define new structures
+
+79.	A structure brings together a group of -----------
+	a.  items of the same data type 	b.  related data items and variables 
+	c.  integers with user defined names 	d.  floating points with user defined names
+
+80.	Most appropriate sentence to describe unions is ------------
+	a.  Union are like structures	
+	b.  Union members are share the same storage area in memory
+	c.  Union are less frequently used in program
+	d. Union are used for set operations
+
+UNIT - V
+81.	Which of the following function sets the pointer position anywhere in the file  ?
+	a. fset()		b. fseek()		c.  fread()		d.  foffset()
+
+82.	If there is any error while opening a file, fopen() will return
+	a. 0   	b. EOF   	c. NULL   	d. Corresponding error
+
+83.	Which of the following mode argument is used to truncate?
+	a. a     		b. f  		 c. w   		d. t
+
+84.	For binary files, a --------must be appended to the mode string.
+	a. Nothing 	b.   “b” 	c. “binary” 	d. “\0”
+85.	The FILE reserved word is ---------
+	a. A structure tag declared in stdio.h 		b. One of the basic datatypes in C
+	c. Pointer to the structure defined in stdio.h 	d.  a type name defined in stdio.h
+86.	The FILE structure is defined in which of the following files.
+	a. stdlib.h	 b. stdio.c	 c. conio.h	 d. stdio.h
+87.	FILE is of type -------------.
+	a.  int type 	b.  char * type 	 	c.  struct type 	d.  user defined 
+88.	Which of the following operations can be performed on the file "NOTES.TXT" using the 	below code?
+	FILE *fp;
+	fp = fopen("NOTES.TXT", "r+");
+	a.  Reading 	b.  Writing 	c.  Appending 		d.  Read and Write
+
+89.	What is the purpose of "rb" in fopen() function used below in the code? 
+	FILE *fp;
+	fp = fopen("source.txt", "rb");
+
+	a. open source.txt in binary mode for reading
+	b. open source.txt in binary mode for reading and writing 
+	c. Create a new file "source.txt" for reading 
+	d. Create a new file "source.txt" for reading and writing
+
+90.	Which of the following operations can be performed on the file "NOTES.TXT" using the 
+	below code?
+		FILE *fp;
+		fp = fopen("NOTES.TXT", "r+")
+	a. Reading	b. Writing	c.Appending	d. Read and Write
+
+91.	Which of the following is wrong about  ftell ?
+	a. is a function				       b. gives the current file position indicator
+	c. can be used to find the size of a file       d. gives the type of the file
+
+92.	The fseek function
+	a. needs 3 arguments			b.makes the rewind function unnecessary
+	c.  is meant for checking whether a given file exists or not	 d. both (a) and (b)
+
+93.	The contents of a file will be lost if it is opened in
+
+	a.  a mode	b.  r+ mode	c.  w+ mode  d. a+  mode
+
+94.	The library function ferror() is defined in-----------.
+	a. stdio.h    	  b. fileio.h     	c. file.h    	    d. stdlib.h
+95.	The number of arguments passed to main() in C is
+	a. One	 	b. Two		 c.  Three	 d. No argument
+96.	Consider the given statement:     int x = 10 ^ 2; What will be the value of x?
+	a. 5		b. 6		c. 7		d. 8
+
+97.	What will be the output of following C program ?
+	#include<stdio.h>
+	#define P printf(“%d”,-1^~0);
+	#define M  void main()
+	M
+	{  P  }
+	
+	a. 0		b. 1		c. -1		d. Compilation error
+	
+98.	What will be the output of following C program ?
+	#include<stdio.h>
+	void main(){
+	printf(“%x”,-1>>1);  }
+	
+	a. 0fff		b. ffff		c. 0000		d. fff0
+	
+99.	Which is not a bitwise operator?
+	a. &		b.  <<		c. &&		d. |
+100.	The right shift operator requires ------------ operands.
+	a. One 		 b. Two	 c. Three	d. No operand  
+
+
+
+
+
+
+
+MCA - First Semester
+PROGRAMMING IN C ( 17MCA1C1 )
+Answer with Expansion
+Unit-I
+1. d. -32768 to 32767
+2. a. system
+3. c. 32	
+4. d. main
+5. a. a number
+6. b. 216 -1
+7. c. 0
+8. c. +=
+9. b.  6
+10.  a. Compilation error	
+11.  a. 53 65
+12.  a. ++
+13.  c. #define pie  3.142  
+14.  c. C is a middle level language    
+15.  d. 4
+16.  c. 0
+17. c. evaluated first 
+18. d. 11
+19. d. either automatic or external depending on the place of occurrence
+
+20. b. Processor registers 
+
+Unit –II
+21. a. while loop is executed at least once  
+22. a. while loop
+23. b. do..while loop
+24. a. case
+25. d. Both (a) and (c)
+26. d. switch 
+27. d. \0
+28. a. break    
+29. b. A pointer “a” to an array 
+30. b. Array   
+31. b. Function    
+32. a. Yes   
+33.  d.  \0
+34. b. Base address of the array 
+35.  a. 6
+36.  d. func(array);
+37.  b.  * (indirection)
+38. c. Last in first out   
+39. a.   Stack    
+40.  a. Always true
+Unit-III
+41. b. 24 bytes
+42. a. 0
+43. c.  Compiler dependent
+44. d. Allocation of memory at runtime
+45. c. 15
+46. c. sizeof (datatype) * size of array   
+47. b. int (*fp)()         
+48. a.  P is a pointer to a 2-D array of 3 rows and 4 columns. 
+49.  a. 0
+50. a. gets()     
+51. a. int num[4] = {1,2,3,4};
+52. d. 0  
+53. b. Unequal
+54. c. 4
+55. d. strrchr()
+56. b. Hello  
+57  d. a[0]=2  
+58. d. unsigned int
+59.  a. llo Boys
+60.  b. continue 
+Unit-IV
+61. c. File inclusion directive   
+62. a. that processes its input data to produce output that is used as input to another program
+63. d. Both (a) and (c)
+64. a. 10
+65. b. Function    
+66. a. Yes   
+67.  b.  \
+68.  d. Compilation error
+69.  d. Compilation error
+70.  c. has # as the first character
+71. b. sizeof(i) = 1   
+72. d. 64
+73. b. 50   
+74. c.  Biggest member in the union
+75. d. Both (b) and (c)
+76. b. struct   
+77. d.  No Error
+78. b.  All of them let you define new data types 
+79. b.  related data items and variables
+80. b.  Union members are share the same storage area in memory
+
+Unit-V
+81. b. fseek()
+82. c. NULL   
+83. c. w   
+84.  b.   “b”
+85.  d.  a type name defined in stdio.h
+86.  d. stdio.h 
+87.  c.  struct type
+88. d.  Read and Write 
+89.  a. open source.txt in binary mode for reading
+
+90. d. Read and Write 
+91. d. gives the type of the file
+92. d. both (a) and (b)
+93. c.  w+ mode  
+94.  a. stdio.h    
+95. b. Two 
+96. d. 8
+97. a. 0
+98. b. ffff
+99.  c. &&
+100. b. Two
+**************************
+
