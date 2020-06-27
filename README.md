@@ -2,5 +2,5 @@
 This MCQ has been published by the Department of Computer Science of Jamal Mohamed College
 
 
-* Click on the zip file you want and Download it.
-* Contact Email: vanekarnayazahmed@gmail.com
+* Click on the zip file and Download it, Use your PC's for better Intraction in Github.
+* For any query, Contact Email: vanekarnayazahmed@gmail.com
